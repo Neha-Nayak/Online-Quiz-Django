@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+    p {
+			text-align: justify;
+		}
+
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "quiz/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    
+    <p class="lead" >Welcome to our online quiz website! We are a team of dedicated professionals who are passionate about creating engaging and educational quizzes for our users.
+
+<br>Our mission is to provide a fun and interactive platform for individuals of all ages to expand their knowledge and challenge their thinking. Whether you are a student, professional, or just someone looking to learn something new, we have quizzes on a variety of topics that will suit your interests and needs.
+
+<br>Our quizzes are designed to be easy to use and accessible to everyone. You can take them anytime, anywhere, on any device. We also offer a range of difficulty levels, so you can choose the quiz that's right for you.
+
+<br>At our online quiz website, we value your feedback and opinions. We are constantly improving our quizzes and adding new content to make sure that our users have the best experience possible.
+
+<br>Thank you for choosing our online quiz website as your source for knowledge and entertainment. We hope you enjoy your time here and learn something new!</p>
+    <hr class="my-4">.
+    <p>Explore our Website.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+  </div>
+
+  {% include "quiz/footer.html" %}
+</body>
+
+</html>
